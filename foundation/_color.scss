@@ -1,0 +1,18 @@
+// サイト全体で使う色を変数と指定定義
+// よく使う色を定義し、たまに使う色は個別指定する
+
+$c_main: #ff0;
+$c_white: #fff;
+
+.c_main {
+	color: $c_main;
+}
+.bg_main {
+	background-color: $c_main;
+}
+.c_white {
+	color: $c_white;
+}
+.bg_white {
+	background-color: $c_white;
+}
