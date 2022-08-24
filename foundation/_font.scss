@@ -1,0 +1,8 @@
+// Noto Serif JP（Google Fonts）
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+$noto-serif: 'Noto Serif JP', serif;
+
+// フォントに関するスタイルはこのファイルに一元化。他のファイルを見ないでよいほうが効率的
+.heading {
+	font-family: $noto-serif;
+}

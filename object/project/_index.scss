@@ -1,0 +1,33 @@
+%p-index-heading {
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+
+.p-index-mv {
+	&__inner {
+		//
+	}
+	&__heading {
+		//
+	}
+	&__mv {
+		//
+	}
+}
+
+.p-index-about {
+	&__inner {
+		//
+	}
+	&__heading {
+		@extend %p-index-heading;
+	}
+}
+.p-index-news {
+	&__heading {
+		@extend %p-index-heading;
+		text-align: right; // 独自で追加したいスタイルは直接記述
+	}
+}

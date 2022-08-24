@@ -1,0 +1,33 @@
+// 「複数ページで使用されている要素かどうか」
+// ボタン、見出し、パンくずリスト、ページネーションも含む
+// 「スタイルもモジュールとしての役割も同じ」
+// 完全に独立したパーツなので、クラスを当てたらすべて同じ見た目になるようになる。
+
+.c-button-primary {
+	// ...
+}
+.c-button-secondary {
+	// ...
+}
+
+.c-button{
+	// コンポーネント本体には共通のスタイルのみ
+	padding: 10px 20px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	//Modifierでスタイルを拡張
+	//マルチクラス設計を行う
+	&--primary {
+		background-color: #a116e0;
+	}
+	&--secondary {
+		background-color: #e0891a;
+	}
+	&--full-width {
+		width: 100%;
+		display: block;
+	}
+}

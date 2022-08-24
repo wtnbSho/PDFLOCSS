@@ -1,0 +1,34 @@
+// サイト全体で使う色を変数と指定定義
+// よく使う色を定義し、たまに使う色は個別指定する
+
+// 接頭辞-セマンティックな命名
+$c-base: #fff;
+$c-main: #fff;
+$c-accent: #fff;
+$c-primary: #fff;
+$c-secondary: #fff;
+
+// 接頭辞-せまんてぃっくな命名-明るさ
+$c-accent-lightest: #fff;
+$c-accent-lighter: #fff;
+$c-accent-light: #fff;
+$c-accent-dark: #fff;
+$c-accent-darker:#fff;
+$c-accent-darkest: #fff;
+
+// 接頭辞-セマンティックな命名-明るさ連番（できるだけ使わない）
+$c-accent-lighter02: #fff;
+$c-accent-lighter03: #fff;
+
+// 接頭辞-色の名前
+$c-red: #fff;
+$c-gray: #fff;
+
+// 接頭辞-いろの名前-明るさ
+$c-gray-lightest: #fff;
+$c-gray-lighter: #fff;
+
+// 接頭辞-色の名前-色の明るさ連番（できるだけ使わない)
+$c-gray-darker02: #fff;
+
+// デザインの時点で色の使われ方が決まっていない場合はc-, 決まっている場合はbg-やtext-といった接頭辞を積極的に使う

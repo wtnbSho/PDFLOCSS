@@ -1,8 +1,14 @@
 // 色以外で変数として管理したい値を定義する
+// せまんてぃっくな命名
 $hover-transition: 300s;
 
 $inner-width: 940px;
 
+// 「プロパティ名-値」を変数名にする
 $opacity-06: 0.6;
-
+// line-heightに使用
 $line-height-1dot5: 1.5;
+// box-shadowに使用
+$box-shadow-sm: 0 5px 10px 0 rgba(#000, 0.1);
+$box-shadow-md: 0 10px 20px 0 rgba(#000, 0.1);
+

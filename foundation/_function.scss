@@ -1,0 +1,9 @@
+// px を remに変換
+@function rem($px, $basepx: 16px) {
+	@return $px / $basepx * 1rem;
+}
+
+// 使うとき
+.text {
+	font-size: rem(20px);
+}
